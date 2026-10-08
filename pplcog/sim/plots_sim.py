@@ -117,10 +117,10 @@ def plot_steepest(steep: dict, soils_idx, stem: Path, conditions=("B1", "B2", "B
             ax.hlines(np.nanmean(v), i - 0.3, i + 0.3, color=COND_COLOURS[cond], lw=2)
     short = {"B1": "wheel\ndriving", "B2": "PPL\ncentred", "B3": "PPL\nphysics-based", "A": "PPL\nStage A", "C": "PPL\nStage C"}
     ax.set_xticks(x); ax.set_xticklabels([short[c] for c in conditions], fontsize=6.5)
-    ax.set_ylabel("steepest completed slope (deg)")
-    ax.set_ylim(0, 36)
-    fig.get_layout_engine().set(rect=(0, 0.06, 1, 0.94))  # strip for the footnote under the tick labels
-    fig.text(0.01, 0.005, "points: protocol soils; bar: mean", fontsize=6, color=INK2)
+    ax.set_ylabel("steepest slope (deg)")
+    ax.set_ylim(0, 40)  # upper bound of the bisection, so that the axis spans the search range
+    fig.get_layout_engine().set(rect=(0, 0.07, 1, 0.93))  # strip for the footnote under the tick labels
+    fig.text(0.01, 0.02, "points: protocol soils; bar: mean", fontsize=6, color=INK2)
     _save(fig, stem)
 
 

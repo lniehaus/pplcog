@@ -230,7 +230,7 @@ $\theta$ ($^\circ$) & condition & completed & slip & efficiency & CoT & $z$ (mm)
 
 \begin{{table}}[!ht]
 \centering
-\caption{{\rev{{Protocol criteria as paired differences across the five protocol soils (negative = improvement): mean difference, number of soil pairs with both runs completed, Cohen's $d_z$, and the paired $t$-test $p$-value. Rows with fewer than two completed pairs are excluded from the count in the text. With $n = 5$ no exact Wilcoxon test can reach $p < 0.05$.\\}}}}
+\caption{{\rev{{Protocol criteria as paired differences across the five protocol soils (negative = improvement): mean difference, number of soil pairs with both runs completed, Cohen's $d_z$, and the paired $t$-test $p$-value. Rows with fewer than two completed pairs are excluded from the count in the text.\\}}}}
 \label{{tab:simcriteria}}
 \small
 \begin{{tabular}}{{@{{}}r l r c r r@{{}}}}
