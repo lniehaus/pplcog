@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# out/: only the result files the article uses are tracked
+out/*
+!out/.gitkeep
+!out/fig5?.pdf
+!out/fig5?.png
+!out/fig6?.pdf
+!out/fig6?.png
+!out/figS1.pdf
+!out/figS1.png
+!out/results.json
+!out/results_sim.json
+!out/results_sim.csv
+!out/params.md
+!out/params.tex
+!out/params_sim.md
+!out/params_sim.tex
+!out/models/
+out/models/*
+!out/models/stageA.joblib
+!out/models/stageC.joblib

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and the software itself."
+type: software
+title: "pplcog: numerical evaluation and closed-loop simulation of adaptive centre-of-gravity control for push-pull locomotion rovers"
+version: 1.0.0
+date-released: 2026-10-08
+license: MIT
+repository-code: "https://github.com/lniehaus/pplcog"
+# doi: 10.5281/zenodo.REPLACE  (concept DOI, inserted after the first Zenodo release)
+authors:
+  - family-names: "Schöning"
+    given-names: "Julius"
+    affiliation: "Faculty of Engineering and Computer Science, Osnabrück University of Applied Sciences, Osnabrück, Germany"
+  - family-names: "He"
+    given-names: "Qingze"
+    affiliation: "Terra-Mechatronics Research, Shibaura Institute of Technology, Omiya Campus, Saitama, Japan"
+  - family-names: "Niehaus"
+    given-names: "Lukas"
+    affiliation: "Faculty of Engineering and Computer Science, Osnabrück University of Applied Sciences, Osnabrück, Germany"
+  - family-names: "Iizuka"
+    given-names: "Kojiro"
+    affiliation: "Terra-Mechatronics Research, Shibaura Institute of Technology, Omiya Campus, Saitama, Japan"
+preferred-citation:
+  type: article
+  title: "Adaptive Center of Gravity Control for Push-Pull Locomotion Rovers on Slopes: A Cross-Domain Framework Linking Planetary Exploration with Agricultural Automation"
+  journal: "Frontiers in Control Engineering"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: "Schöning"
+      given-names: "Julius"
+    - family-names: "He"
+      given-names: "Qingze"
+    - family-names: "Niehaus"
+      given-names: "Lukas"
+    - family-names: "Iizuka"
+      given-names: "Kojiro"

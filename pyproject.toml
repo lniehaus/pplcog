@@ -1,0 +1,43 @@
+[project]
+name = "pplcog"
+version = "1.0.0"
+description = "Numerical evaluation and closed-loop simulation of adaptive centre-of-gravity control for a push-pull locomotion rover with a movable mass"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Julius Schöning" },
+    { name = "Qingze He" },
+    { name = "Lukas Niehaus" },
+    { name = "Kojiro Iizuka" },
+]
+requires-python = ">=3.13"
+dependencies = [
+    "joblib>=1.4",
+    "matplotlib>=3.9",
+    "numpy>=2.1",
+    "scikit-learn>=1.5",
+    "scipy>=1.14",
+]
+
+[project.urls]
+Repository = "https://github.com/lniehaus/pplcog"
+
+[project.scripts]
+pplcog = "pplcog.run_all:main"
+pplcog-sim = "pplcog.sim.run_sim:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
