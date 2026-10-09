@@ -84,7 +84,7 @@ class SimParams:
     seed: int = 20261002
     n_soils: int = 60
     n_train: int = 40
-    n_rep: int = 5
+    n_rep: int = 20
     slopes_deg: tuple[float, ...] = (0.0, 10.0, 20.0, 30.0)
     steep_lo: float = 0.0
     steep_hi: float = 40.0
